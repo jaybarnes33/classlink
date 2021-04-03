@@ -7,20 +7,20 @@ const Book = () => {
       <Form className={styles.book}>
         <Form.Group>
           <Form.Label>
-            <i class="bi mx-2 bi-box-arrow-in-right"></i>Check In
+            <i className="bi mx-2 bi-box-arrow-in-right"></i>Check In
           </Form.Label>
           <Form.Control type="date" />
         </Form.Group>
         <Form.Group>
           <Form.Label>
-            <i class="bi mx-2 bi-box-arrow-in-left"></i>Checkout
+            <i className="bi mx-2 bi-box-arrow-in-left"></i>Checkout
           </Form.Label>
           <Form.Control type="date" />
         </Form.Group>
 
         <Form.Group>
           <Form.Label>
-            <i class="bi mx-2 bi-people"></i> Children
+            <i className="bi mx-2 bi-people"></i> Children
           </Form.Label>
           <Form.Control
             className={`px-2 ${styles.number}`}
@@ -30,7 +30,7 @@ const Book = () => {
         </Form.Group>
         <Form.Group>
           <Form.Label>
-            <i class="bi mx-2 bi-people-fill"></i>Adults
+            <i className="bi mx-2 bi-people-fill"></i>Adults
           </Form.Label>
           <Form.Control
             className={`px-2 ${styles.number}`}

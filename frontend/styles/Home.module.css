@@ -105,8 +105,8 @@
   .book {
     padding: 10px;
     flex-direction: column;
-    width: 95%;
-    margin: 0 2.5%;
+    width: 80%;
+    margin: 0 10%;
   }
   .book input {
     border: unset;
