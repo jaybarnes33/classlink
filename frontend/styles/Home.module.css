@@ -1,0 +1,116 @@
+.main {
+  position: relative;
+  background: rgba(14, 13, 13, 0.562) url("/images/room1.jpg") center center
+    no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  padding-top: 120px;
+}
+
+.hero {
+  font-family: "Abril Fatface", cursive;
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  line-height: 1.2;
+  /* max-width: 200px; */
+}
+
+.main .text {
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.main h5,
+.main span {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.main h5 .svg img {
+  width: 70px;
+  height: 10px;
+  margin-right: 10px;
+}
+
+.more i img {
+  color: #d29f24;
+  width: 60px !important;
+  height: 7px;
+  margin: 10px;
+}
+
+.booking h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+.book {
+  color: #101010;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book label {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.book input {
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.3rem;
+  border-radius: 0;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f4f4f4;
+}
+
+.book button {
+  color: #f4f4f4;
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 0;
+  height: 40px;
+}
+
+.book button:hover {
+  color: #f4f4f4;
+}
+@media screen and (max-width: 860px) {
+  .hero {
+    font-size: 2rem;
+  }
+
+  .text {
+    margin-bottom: 50px;
+  }
+  .book {
+    flex-direction: column;
+    padding: 10px;
+    max-width: 450px;
+  }
+  .book input {
+    border: 1px solid gray;
+  }
+}
+
+@media screen and (max-width: 860px) and (orientation: landscape) {
+  .main {
+    padding-top: 170px;
+  }
+}

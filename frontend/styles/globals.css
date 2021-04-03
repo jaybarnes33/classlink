@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hind:wght@300&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+* {
+  font-family: "Hind", sans-serif;
+}
+.logo {
+  width: 120px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar {
+  position: relative;
+  border: 1px solid darkgray;
+  border-right: none;
+  border-left: none;
+  padding: 0.9rem;
+}
+.nav-item {
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-item button {
+  position: absolute;
+  right: 150px;
+  top: 0;
+  height: 100%;
+  border-radius: 0;
+  background-color: #d29f24;
+  border: none;
+  text-transform: uppercase;
+  padding: 0 30px;
+}
+
+.nav-item button:hover,
+.nav-item button:active,
+.nav-item button:focus-within {
+  background-color: #e7a304 !important;
+  box-shadow: none !important;
+  border: none;
+}
+
+.nav-item a {
+  text-transform: uppercase;
+  color: #f4f4f4;
+}
+
+.nav-item a:hover {
+  color: #e7a304;
+}
+a:hover {
+  text-decoration: none;
+}
