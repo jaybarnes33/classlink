@@ -9,6 +9,9 @@ const Header = () => {
   return (
     <header>
       <nav>
+        <Container></Container>
+      </nav>
+      <Navbar expand="lg" collapseOnSelect>
         <Container>
           <Link href="/">
             <a>
@@ -17,10 +20,6 @@ const Header = () => {
               </Navbar.Brand>
             </a>
           </Link>
-        </Container>
-      </nav>
-      <Navbar expand="lg" collapseOnSelect>
-        <Container>
           <Navbar.Toggle
             // className="form-control"
             style={{ maxWidth: "50px" }}
