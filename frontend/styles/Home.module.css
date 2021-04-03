@@ -94,9 +94,9 @@
 .book button:hover {
   color: #f4f4f4;
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 700px) {
   .hero {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .text {
@@ -105,10 +105,12 @@
   .book {
     padding: 10px;
     flex-direction: column;
+    width: 95%;
+    margin: 0 2.5%;
   }
   .book input {
     border: unset;
-    width: 220px;
+    width: 99%;
     box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.3);
     border-radius: 0;
   }
